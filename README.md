@@ -1,50 +1,42 @@
-# Impact-of-voice-on-disclosure
-Impact of voice on disclosure during phone interviews
+# Impact of Voice on Disclosure
 
-# Rasa Installation and Usage Guide
+## Overview
 
-This guide provides instructions on how to install Rasa, an open-source conversational AI framework, and how to use it to train and test our models.
+The **Impact of Voice on Disclosure** project aims to study the extent to which people are influenced in their discussions by the voice of their interviewer. This project involves generating different voices and using them in conversations during fake job interviews, facilitated by RASA, an open-source conversational AI platform.
 
-## Installation
+## Objectives
 
-### Step 1: Prerequisites
+The main objectives of this project are:
+1. To explore the psychological and behavioral effects of different interviewer voices on participants during interviews.
+2. To analyze how variations in voice characteristics (e.g., tone, pitch, speed) influence the level of disclosure and comfort of interviewees.
+3. To provide insights into the design of AI interviewers and the potential impact on user interactions.
 
-Before installing Rasa, ensure you have the following prerequisites installed on your system.
+## Methodology
 
-An environment ready with:
-- Python: recommended version: 3.7 or higher (Python 3.10 might be trickier to get setup properly)
-- pip (Python package installer)
+### Voice Generation
 
-### Step 2: Install Rasa
+- Various voices were generated using text-to-speech (TTS) technologies.
+- Different voice characteristics were manipulated to create distinct interviewer personas.
 
-You can install Rasa by running the following command in your terminal or command prompt: 'pip install rasa'
+### Conversation Simulation
 
-## Usage
+- Fake job interviews were conducted using RASA, an open-source conversational AI platform.
+- Interview scenarios were scripted to ensure consistency across different voice conditions.
 
-Once Rasa is installed, you can start using it to build and test conversational AI models. Below are instructions on how to perform common tasks using Rasa.
+### Data Collection
 
-### Train Rasa models
+- Participant responses and interactions were recorded and transcribed using speech-to-text technologies.
+- Data on participant comfort levels, openness, and willingness to disclose information were collected through post-interview surveys.
 
-To train a Rasa model using your NLU (Natural Language Understanding) and dialogue training data, run the following command in your terminal: 'rasa train'
+### Analysis
 
+- Qualitative and quantitative analysis was performed on the collected data.
+- Statistical methods were used to determine the impact of different voices on participant behavior.
 
-This command will train both the NLU and dialogue management models based on the data provided in your project directory.
+## Tools and Technologies
 
-### Launch Rasa shell
-
-After training your model, you can interact with it using the Rasa shell. To launch the Rasa shell, run the following command: 'rasa shell'
-
-
-This will start the interactive shell where you can chat with your trained conversational model.
-
-## Additional Resources
-
-- [Rasa Documentation](https://rasa.com/docs/rasa/)
-- [Rasa Community Forum](https://forum.rasa.com/)
-- [Rasa GitHub Repository](https://github.com/RasaHQ/rasa)
-
-## You have to train each model beforehand to be able to launch the whole project!
-
-## Launch project
-
-To use it, start rasaInputOutput.py in Impact-of-voice-on-disclosure/code/data/
+- **RASA**: Used for building and deploying the conversational AI for fake job interviews.
+- **Text-to-Speech (TTS)**: Technologies used for generating various interviewer voices.
+- **Speech-to-Text (STT)**: Used for transcribing participant responses.
+- **Python**: For data analysis and processing.
+- **Surveys**: For collecting participant feedback and data post-interview.
